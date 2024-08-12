@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main>
         <section>
-            <h1>Library Management System</h1>
+            <asp:Label ID="lblPageTitle" Font-Bold="true" runat="server"></asp:Label>
         </section>
     </main>
 </asp:Content>
