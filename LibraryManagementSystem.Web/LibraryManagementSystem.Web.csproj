@@ -99,7 +99,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\Authentication\LogIn.aspx" />
+    <Content Include="Admin\ManageBooks\AddBooks.aspx" />
+    <Content Include="Admin\ManageBooks\UpdateBooks.aspx" />
     <Content Include="Admin\ManageBooks\ViewBooks.aspx" />
+    <Content Include="Admin\User_Details\UserDetails.aspx" />
+    <Content Include="Session\Session.aspx" />
+    <Content Include="User\Authentication\LogIn\LogIn.aspx" />
+    <Content Include="User\Authentication\SignUp\SignUp.aspx" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
@@ -133,6 +140,27 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\Authentication\LogIn.aspx.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Authentication\LogIn.aspx.designer.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManageBooks\AddBooks.aspx.cs">
+      <DependentUpon>AddBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageBooks\AddBooks.aspx.designer.cs">
+      <DependentUpon>AddBooks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManageBooks\UpdateBooks.aspx.cs">
+      <DependentUpon>UpdateBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageBooks\UpdateBooks.aspx.designer.cs">
+      <DependentUpon>UpdateBooks.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\ManageBooks\ViewBooks.aspx.cs">
       <DependentUpon>ViewBooks.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -140,8 +168,36 @@
     <Compile Include="Admin\ManageBooks\ViewBooks.aspx.designer.cs">
       <DependentUpon>ViewBooks.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\User_Details\UserDetails.aspx.cs">
+      <DependentUpon>UserDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\User_Details\UserDetails.aspx.designer.cs">
+      <DependentUpon>UserDetails.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Session\Session.aspx.cs">
+      <DependentUpon>Session.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Session\Session.aspx.designer.cs">
+      <DependentUpon>Session.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Authentication\LogIn\LogIn.aspx.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Authentication\LogIn\LogIn.aspx.designer.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Authentication\SignUp\SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Authentication\SignUp\SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
