@@ -8,4 +8,9 @@
     <ProjectReference Include="..\LibraryManagementSystem.Data\LibraryManagementSystem.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="BusinessLogics\ManagingBooks\" />
+    <Folder Include="FacadeImplementation\ManagingBooks\" />
+  </ItemGroup>
+
 </Project>
