@@ -10,8 +10,8 @@
     <form id="form1" runat="server">
         <h1>Add Books</h1>
         <div>
-            <asp:Label ID="BookNumber" runat="server">Book.No:</asp:Label>
-            <asp:TextBox ID="BookNo" runat="server"></asp:TextBox><br /><br />
+            <asp:Label ID="BookNumber" runat="server">Book.Id:</asp:Label>
+            <asp:TextBox ID="Id" runat="server"></asp:TextBox><br /><br />
 
             <asp:Label ID="BookName" runat="server">BookName:</asp:Label>
             <asp:TextBox ID ="NameOfTheBook" runat="server" ></asp:TextBox><br /><br />

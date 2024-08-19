@@ -2,9 +2,9 @@
 {
     public class BookDto
     {
-        public string BookNo {  get; set; }
-        public string NameOfTheBook {  get; set; }
-        public string AuthorName {  get; set; }
+        public int Id {  get; set; }
+        public string Name {  get; set; }
+        public string Author {  get; set; }
         public string PublishedYear {  get; set; }
     }
 }
