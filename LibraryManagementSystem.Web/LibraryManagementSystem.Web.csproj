@@ -249,6 +249,10 @@
       <Project>{c03c438a-9687-41c2-bd5c-3cbbae797d25}</Project>
       <Name>LibraryManagementSystem.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\LibraryManagementSystem.Logic\LibraryManagementSystem.Logic.csproj">
+      <Project>{d51d57ba-d54d-4345-979c-92bffc72efc1}</Project>
+      <Name>LibraryManagementSystem.Logic</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
